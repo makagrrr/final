@@ -1,0 +1,47 @@
+.menu-container {
+    width: 920px;
+    margin:auto;
+}
+.menu-heading {
+    text-align: center;
+}
+.main-menu img {
+    width: 450px;
+    height: 450px;
+}
+.main-menu-container {
+    width: 450px;
+    height: 450px;
+}
+.main-menu-items {
+    margin: 0 10px;
+    line-height: 35px;
+}
+.main-menu-items .price {
+    margin: 0;
+    text-align:end ;
+    font-size: 22spx;
+}
+.main-menu-items .food-name {
+    margin: 0;
+    text-align:start ;
+    border-top: 1px dotted black;
+    font-size: 26px;
+}
+.main-menu-items .food-description {
+    margin: 0;
+    text-align:start ;
+    font-size: 14px;
+}
+
+@media (max-width:925px) {
+    .menu-container {
+        width: 450px;
+        margin:auto;
+    }
+  
+    .main-menu {
+        flex-direction: column-reverse;
+    }
+   
+}

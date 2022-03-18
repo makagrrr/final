@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   } 
+   a {
+     text-decoration: none;
+   }
+ 
+   .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    color: black;
+   }
+   .navbar li {
+    list-style: none;
+   }
+   .nav-links a {
+    color: black;
+   }
+   .logo {
+     font-family: 'Euphoria Script';
+    font-size: 44px;
+    color:#e67437;
+    letter-spacing: 2px;
+   }
+   .nav-menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .nav-menu li:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .nav-menu li {
+    padding: 5px 14px;
+   }
+   .navbar input[type=checkbox]{
+    display: none;
+   } 
+   .hamburger {
+    display: none;
+    font-size: 28px;
+    user-select: none;
+   }
+
+  
+   @media (max-width: 768px) {
+   .nav-menu { 
+    display:none;
+    position: absolute;
+    background-color:white;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+   }
+   .nav-menu li:hover {
+    display: inline-block;
+    transition: 0.3s ease;
+   }
+   .nav-menu li + li {
+    margin-top: 12px;
+   }
+   input[type=checkbox]:checked ~ .nav-menu{
+    display: block;
+    position: absolute;
+    z-index: 1;
+   }
+  
+   .hamburger {
+    display: block;
+   }
+   .logo {
+     margin: auto;
+   }
+   }

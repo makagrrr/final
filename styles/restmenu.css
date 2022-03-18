@@ -1,0 +1,31 @@
+.wrapper {
+    padding: 2em 1em;
+    background-color: #fff;
+    columns: 100px 2;
+    column-gap: 70px;
+}
+.wrapper ul {
+    display: block;
+    padding-inline-start: 0;
+}
+.item {
+    border-bottom: 1px dotted rgb(106, 150, 108);
+    display: flex;
+    justify-content: space-between;
+    break-inside: avoid;
+}
+.wrapper span {
+    color: rgb(106, 150, 108);
+}
+.list-title {
+    font-size: 30px;
+    color:#e67437;
+}
+.list {
+    margin-bottom: 36px;
+}
+@media (min-width: 600px) {
+    .wrapper {
+        padding: 1em calc( 50% - 300px);
+}
+}
