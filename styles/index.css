@@ -3,6 +3,7 @@
     font-weight: 200;
 }
 .gallery-heading {
+    margin:10px 0;
     background-color:#EBF0E4;
     width:100%;
     padding: 20px;
@@ -102,13 +103,17 @@
 
 
 @media (max-width: 920px) {
-    
     .home-text {
         row-gap: 10px;
         padding:0 10px;
     }
     .home-photo img {
         height:100%;
+    }
+}
+@media (max-width:804px) {
+    .home-text {
+        row-gap: 6px;
     }
 }
 @media (max-width:768px) {

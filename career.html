@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <title>Cáfe Dorrance</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <nav class="navbar">
+        <div class="logo">Dorrance</div>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle">
+            <label for="checkbox_toggle" class="hamburger">&#9776</label>
+            <div class="nav-menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./restmenu.html">Menu</a></li>
+                <li><a href="./team.html">Team</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="career">
+        <div class="career-heading">
+            <h1>Careers</h1>
+            <p>
+                At Dorrance, we nurture and develop real talent. If you would like to work with us, be it front-of-house, in the kitchen or in guest relations, we want to hear from you.
+            </p>
+        </div>
+        <div class="career-vacancy">
+            <h3>Current Vacancies:</h3>
+            <p>Chef de Partie </p>
+            <p>Head Waiter</p>
+            <p>Hostess</p>
+            <p>Reservationist</p>
+            <p>Guest Relations Manager</p>
+            <h3>Strategies:</h3>
+            <p>We run a consistent stagiaire programme whereby chefs of all levels can learn across specific or a number of sections in the kitchen.
+            <br><br> We would recommend joining us for a minimum of two weeks so as to become part of the team. At the end of your two weeks, you will be invited for a complimentary lunch at Dorrance. 
+            Please email your CV to <a class="vacancy-email" href="mailto:careers@dorrance.co.uk"> careers@dorrance.co.uk</a>  or apply directly <a href="#vacancy">here:</a></p>
+        </div>
+    </div>
+    <div class="application-form-container" id="vacancy">
+        <h1>Job Application Form</h1>
+        <form action="" method="get">
+            <div class="form-group">
+                <label class="text-input-label" for="firstName"> Full name</label>
+                <input class="input-text" type="text" name="userName" id="userName" placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label class="text-input-label" for="email"> Email</label>
+                <input class="input-text" type="text" name="email" id="email" placeholder="Enter your email address">
+            </div>
+            <div class="form-group">
+                <label class="text-input-label" for="phoneNumber"> Phone number</label>
+                <input class="input-text" type="text" name="phoneNumber" id="number" placeholder="Enter your phone number">
+            </div>
+            <div class="vacancy-input">
+                <label class="text-input-label" for="position"> Select from available positions</label>
+                <select class="vacancy-position" >
+                    <option value="select-position"></option>
+                    <option value="chef">Chef de Partie </option>
+                    <option value="waiter">Head Waiter</option>
+                    <option value="hostess">Hostess</option>
+                    <option value="reservationist">Reservationist</option>
+                    <option value="manager">Guest Relations Manager</option>
+                </select>
+            </div>
+            <div class="vacancy-text">
+                <label class="text-input-label" for="additionaInformation"> Additional information </label>
+                <textarea class= "text-area" id="textarea" name="textarea" cols="50" rows="4" maxlength="100" minlength="3" placeholder="Tell us more about you..."> </textarea>
+            </div>
+        </form>
+        <button class="submit-button d-flex justify-content-center align-items-center">Submit</button>
+    <div>      
+    <footer>
+        <div class="footer-content">
+            <h3> Dorrance</h3>
+            <p>Dorrance is a Contemporary Creole restaurant creating unique dishes with a focus on local ingredients and inspired by classical training. the main dining room caters to the most unique dining experience. The interior is rich with original architectural details, soaring columns,and antique mirrors.</p>
+        </div>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        <div class="footer-bottom">
+            <p>copyright&copy, 2022 <a href="#">Dorrance</a></p>
+        </div>
+    </footer>
+</body>
+</html>

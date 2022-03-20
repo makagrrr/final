@@ -29,7 +29,8 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-}.reservation-input select {
+}
+.reservation-input select {
     width: 100%;
     height: 40px;
     padding: 0;
