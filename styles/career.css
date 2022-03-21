@@ -61,6 +61,7 @@
 .submit-button {
     font-size: 18px;
     cursor: pointer;
+    color: black;
     background-color: white;
     margin: 40px auto;
     width: 50%;

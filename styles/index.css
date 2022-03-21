@@ -110,7 +110,7 @@
 }
 @media (max-width:804px) {
     .home-text {
-        row-gap: 6px;
+        row-gap: 3px;
     }
 }
 @media (max-width:768px) {
