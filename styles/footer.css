@@ -1,13 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 footer{
     background:	rgba(0, 0, 0);
     height: auto;
     padding: 20px 0;
     color: #fff;
+    margin-top: auto;
 }
 .footer-content{
     display: flex;
