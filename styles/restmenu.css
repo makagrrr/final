@@ -1,5 +1,5 @@
 .wrapper {
-    padding: 10px calc( 50% - 400px);
+    padding: 10px calc( 50% - 500px);
     margin: 30px;
     line-height: 35px;
     background-color: #fff;
@@ -17,14 +17,26 @@
     break-inside: avoid;
 }
 .wrapper span {
-    color: rgb(106, 150, 108);
+    color: rgba(106, 150, 108);
 }
 .list-title {
     font-size: 30px;
-    color:#e67437;
+    color:#e67437c4;
 }
 .list {
     margin-bottom: 36px;
+}
+.menu-intro {
+    padding: 20px 0;
+    row-gap: 20px;
+}
+.menu-intro h1 {
+    text-align: center;
+    color:#e67437;
+}
+.menu-intro img {
+    width: 50px;
+    text-align: center;
 }
 @media (max-width: 768px) {
     .wrapper {
