@@ -72,8 +72,9 @@
     align-items: center;
 }
 .submit-button:hover {
-    border: 1px solid #e67437;
-    color: #e67437;
+    border:none;
+    background-color: black;
+    color: white;
 }
 .vacancy-input select {
     width: 100%;

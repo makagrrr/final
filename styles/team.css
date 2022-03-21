@@ -78,6 +78,7 @@
     letter-spacing: 2px;
 }
 .join-team a:hover {
-    border: 1px solid #e67437;
-    color:#e67437;
+    border:none;
+    background-color: black;
+    color: white;
 }

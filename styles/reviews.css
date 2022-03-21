@@ -1,13 +1,18 @@
 .review-container  {
     background-color: black;
     margin: 60px auto;
-    padding: 100px 0 90px 0;
+    padding: 50px 0 80px 0;
     
 }
 .review-item-container {
     margin: auto;
-    width: 670px;
+    width: 690px;
     column-gap: 50px;
+}
+.review-container h1 {
+    margin-bottom:50px;
+    text-align: center;
+    color: white;
 }
 .reviewer {
     margin-bottom:10px;
@@ -44,6 +49,13 @@
     .review-item {
         width:280px;
         margin: auto;
+    }
+}
+@media (max-width: 693px) {
+    .review-item-container {
+        width: 650px;
+        margin: auto;
+        column-gap: 10px;
     }
 }
 @media (max-width:658px) {
