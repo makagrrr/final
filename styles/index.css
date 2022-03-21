@@ -20,10 +20,10 @@
 .gallery-items img {
     width: 100%;
     height: 100%;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease; 
 }
 .gallery-items img:hover  {
-    transform: scale(1.04);
+    transform: scale(1.03);
 }
 .grid-item-8 {
     grid-column-start: 1 ;
