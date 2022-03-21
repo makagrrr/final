@@ -1,0 +1,13 @@
+* {
+    font-family: 'Montserrat';
+    font-weight: 200;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+

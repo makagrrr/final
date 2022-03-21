@@ -8,8 +8,6 @@
     margin: auto;
     width: 670px;
     column-gap: 50px;
-
-    
 }
 .reviewer {
     margin-bottom:10px;
@@ -42,8 +40,6 @@
     width: 100%;
    
 }
-
-
 @media (max-width:768px) {
     .review-item {
         width:280px;
