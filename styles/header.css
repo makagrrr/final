@@ -14,6 +14,14 @@
     padding: 20px;
     background-color: white;
     color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+   }
+   .nav-links {
+    margin-top: 8px;
+
    }
    .navbar li {
     list-style: none;
@@ -22,7 +30,7 @@
     color: black;
    }
    .logo {
-     font-family: 'Euphoria Script';
+    font-family: 'Euphoria Script';
     font-size: 44px;
     color:#e67437;
     letter-spacing: 2px;

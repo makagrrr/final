@@ -21,6 +21,3 @@ select {
 	-webkit-appearance: none; 
     appearance:menulist-button;
 }
-body {
-    min-height: 100vh;
-}
